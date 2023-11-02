@@ -20,8 +20,6 @@ def hi(name):
         responce = make_response(redirect(url_for('form')))
         responce.set_cookie(name, '', 0)
         return responce
-
-
     return render_template('hi.html', name=name)
 
 
