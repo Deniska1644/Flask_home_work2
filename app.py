@@ -25,10 +25,6 @@ def hi(name):
     return render_template('hi.html', name=name)
 
 
-@app.route('/ggg')
-def ggg():
-    return 'gggg'
-
 
 if __name__ == '__main__':
     app.run(debug=True)
